@@ -2,4 +2,12 @@ Occasionally I hack on some [simple] fonts, or just collect nice ones before
 they disappear from the Net.  So far here we have:
 
 - vgafonts: cute and/or bizarre bitmap fonts (Latin only)
-- classic version of Apple's bitmap Chicago by Susan Kare, but extended
+- extended version of Apple's classic bitmap Chicago by Susan Kare
+
+    Being a big fan of Chicago font, I was dissatisfied with how its later
+    B&H's TrueType version was rasterized in X11.  Original bitmap version
+    was what I needed, but it was vastly incomplete -- most importantly,
+    lacking Cyrillic glyphs and many other useful symbols.
+
+    This work is an attempt to extend original bitmap Chicago, while trying
+    to preserve its original cuteness and philosophy.
